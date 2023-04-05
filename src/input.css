@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities{
+    .site-container{
+        @apply max-w-1440 w-full mx-auto px-5;
+    }
+}
