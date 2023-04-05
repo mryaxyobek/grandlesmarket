@@ -18,6 +18,10 @@ module.exports = {
           }
         }
       },
+      fontSize:{
+        '13':"13px",
+        '10':"10px"
+      },
       backgroundColor:{
         grey:{
           'E0E0E0':"#E0E0E0",
@@ -51,6 +55,7 @@ module.exports = {
       },
       lineHeight:{
         '18':"18px",
+        '10':"10px",
         '14':"14px",
         '13':"13px",
         '66':"66px",
