@@ -43,6 +43,9 @@ module.exports = {
       borderRadius:{
         '10':"10px"
       },
+      spacing:{
+        'minus-5':"-5px"
+      },
       maxWidth: {
         '1440':"1440px",
         '1203':"1203px",
@@ -50,8 +53,13 @@ module.exports = {
         '670':"670px",
         '656':"646px",
         '620':"620px",
+        '539':"539px",
         '534':"534px",
+        '354':"354px",
         '215':"215px"
+      },
+      height:{
+        '493':"493px"
       },
       lineHeight:{
         '18':"18px",
