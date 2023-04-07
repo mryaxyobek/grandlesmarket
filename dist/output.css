@@ -424,8 +424,13 @@ video {
 
 h2 {
   font-size: 34px;
+  font-weight: 700;
+  line-height: 44.2px;
   --tw-text-opacity: 1;
   color: rgb(42 26 1 / var(--tw-text-opacity));
+}
+
+p {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
