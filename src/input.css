@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+    h2{
+        @apply font-bold text-34 leading-44 text-br-black-2A1A01;
+    }
+    h2{
+        @apply font-normal text-base leading-44 ;
+    }
+    span{
+        @apply font-normal text-sm leading-4 text-br-grey-777;
+    }
+}
 @layer utilities{
     .site-container{
         @apply max-w-1440 w-full mx-auto px-5;

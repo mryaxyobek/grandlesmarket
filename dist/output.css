@@ -422,6 +422,24 @@ video {
   display: none;
 }
 
+h2 {
+  font-size: 34px;
+  --tw-text-opacity: 1;
+  color: rgb(42 26 1 / var(--tw-text-opacity));
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  line-height: 44.2px;
+}
+
+span {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(119 119 119 / var(--tw-text-opacity));
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -640,12 +658,12 @@ video {
   height: 1rem;
 }
 
-.h-7 {
-  height: 1.75rem;
-}
-
 .h-493 {
   height: 493px;
+}
+
+.h-7 {
+  height: 1.75rem;
 }
 
 .w-2 {
