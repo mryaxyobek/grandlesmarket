@@ -7,7 +7,7 @@
         @apply font-bold text-34 leading-44 text-br-black-2A1A01;
     }
     p{
-        @apply font-normal text-base leading-44 ;
+        @apply font-normal text-base leading-4 ;
     }
     span{
         @apply font-normal text-sm leading-4 text-br-grey-777;
