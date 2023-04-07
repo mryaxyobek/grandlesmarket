@@ -19,6 +19,8 @@ module.exports = {
         }
       },
       fontSize:{
+        '100':"100px",
+        '50':"50px",
         '34':"34px",
         '13':"13px",
         '10':"10px"
@@ -46,6 +48,9 @@ module.exports = {
       },
       spacing:{
         'minus-5':"-5px"
+      },
+      padding:{
+        '70':"70px"
       },
       maxWidth: {
         '1440':"1440px",
