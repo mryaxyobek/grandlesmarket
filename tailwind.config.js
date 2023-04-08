@@ -39,13 +39,17 @@ module.exports = {
         black:{
           '222':"#222",
         },
+        yellow:{
+          'FF9B04':"#FF9B04"
+        },
         grey:{
           '777':"#777",
           'E0E0E0':"#E0E0E0"
         },
       },
       borderRadius:{
-        '10':"10px"
+        '10':"10px",
+        '3':"3px"
       },
       spacing:{
         'minus-5':"-5px"
@@ -67,7 +71,8 @@ module.exports = {
         '215':"215px"
       },
       height:{
-        '493':"493px"
+        '493':"493px",
+        '30':"30px",
       },
       lineHeight:{
         '18':"18px",
