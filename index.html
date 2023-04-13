@@ -319,7 +319,7 @@
         </div>
         <!-- item  -->
         <ul class="overflow-x-auto gap-5 grid grid-cols-2 ">
-          <li class="flex items-center justify-end relative pb-9 py-8 pr-8 rounded-10 border border-grey-E0E0E0">
+          <li class="flex items-center justify-end relative pb-9 py-8 pr-5 rounded-10 border border-grey-E0E0E0">
             <!-- child 1 -->
               <div class="flex absolute items-center justify-center top-0 left-0 bottom-0 py-14 px-8 bg-grey-F5F5F5 rounded-10">
                 <img src="./images/popular-wood-1-img.png" alt="popular-wood">
@@ -358,7 +358,7 @@
               </div>
             </div>
           </li>
-          <li class="flex items-center justify-end relative pb-12 py-8 pr-8 rounded-10 border border-grey-E0E0E0">
+          <li class="flex items-center justify-end relative pb-12 py-8 pr-5 rounded-10 border border-grey-E0E0E0">
             <!-- child 1 -->
               <div class="flex absolute items-center justify-center top-0 left-0 bottom-0 py-14 px-8 bg-grey-F5F5F5 rounded-10">
                 <img src="./images/popular-wood-1-img.png" alt="popular-wood">
@@ -481,6 +481,60 @@
         </div>
       </li>
     </ul>
+  </section>
+
+  <!-- calculator section  -->
+
+  <section class="p-14 pb-10">
+    <div class="grid gap-11 grid-cols-2 site-container p-5 rounded-10 bg-grey-E0E0E0 mb-70">
+      <!-- img  -->
+      <img src="./images/working-woman-img.png" alt="working-woman-img" class="">
+      <!-- item 2 -->
+      <div class="relative bg-white rounded-10 px-10 pt-12">
+        <h2 class="mb-8 text-34 font-bold leading-44 text-br-black-2A1A01">Калькулятор пиломатериалов</h2>
+        <form action="https://echo.htmlacademy.ru" class="grid grid-cols-2 gap-5">
+          <div class="flex flex-col">
+            <label for="category" class="mb-1 text-sm leading-18  font-normal text-br-grey-777">Категория</label>
+            <select name="category" id="category" class=" rounded-10 border border-grey-E0E0E0 text-base leading-4 py-5 px-4 mb-5">
+              <option value="prodcut1" class="">Доска</option>
+              <option value="prodcut2" class="">Доска</option>
+              <option value="prodcut3" class="">Доска</option>
+            </select>
+            <label for="category2" class="mb-1 text-sm leading-18  font-normal text-br-grey-777">Древесина</label>
+            <select name="category" id="category2" class=" rounded-10 border border-grey-E0E0E0 text-base leading-4 py-5 px-4">
+              <option value="prodcut1" class="">Выберите материал</option>
+              <option value="prodcut2" class="">Выберите материал</option>
+              <option value="prodcut3" class="">Выберите материал</option>
+            </select>           
+          </div>
+          <div class="flex flex-col">
+            <label for="wood" class="mb-1 text-sm leading-18  font-normal text-br-grey-777">Размер</label>
+            <select name="category" id="wood" class=" rounded-10 border border-grey-E0E0E0 text-base leading-4 py-5 px-4 mb-5">
+              <option value="prodcut1" class="">50х150х6000</option>
+              <option value="prodcut2" class="">50х150х6000</option>
+              <option value="prodcut3" class="">50х150х6000</option>
+            </select>
+            <label for="quantity" class="mb-1 text-sm leading-18  font-normal text-br-grey-777">Количество</label>
+            <select name="category" id="quantity" class=" rounded-10 border border-grey-E0E0E0 text-base leading-4 py-5 px-4">
+              <option value="prodcut1" class="">Доска</option>
+              <option value="prodcut2" class="">Доска</option>
+              <option value="prodcut3" class="">Доска</option>
+            </select>           
+          </div>
+          <!-- footer   -->
+          <div class="absolute bottom-0 right-0 left-0 rounded-b-lg flex items-center justify-between bg-yellow-FF9B04 py-5 px-10">
+            <div class="flex items-center">
+              <span class="text-white font-medium text-base leading-4 mr-2.5">Стоимость:</span>
+              <p class="font-extrabold text-white text-2xl leading-6">75 000 ₽</p>
+            </div>
+            <button type="submit" class="text-13 font-semibold leading-13 rounded-lg bg-white px-90 py-6">Оформить заказ</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="rounded-3 py-8 pl-8 pr-14 border-l-4 border-yellow-FF9B04 shadow-20px italic leading-6">
+      Обратите внимание, что точную стоимость пиломатериалов рекомендуется уточнять у наших менеджеров. Закажите обратный звонок в удобное время или задавайте вопросы в режиме онлайн через специальную форму на сайте компании. Связаться с менеджерами самостоятельно можно по телефонам: +7 (915) 202-72-57 / +7 (495) 970-45-62
+    </div>
   </section>
 </body>
 </html> 

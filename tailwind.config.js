@@ -55,7 +55,14 @@ module.exports = {
         'minus-5':"-5px"
       },
       padding:{
-        '70':"70px"
+        '70':"70px",
+        '90':"90px"
+      },
+      margin:{
+        '70':"70px",
+      },
+      boxShadow:{
+        '20px':"0px 0px 20px rgba(0, 0, 0, 0.05)",
       },
       maxWidth: {
         '1440':"1440px",
