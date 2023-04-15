@@ -574,6 +574,10 @@ span {
   left: 5rem;
 }
 
+.left-30 {
+  left: 30px;
+}
+
 .left-4 {
   left: 1rem;
 }
@@ -596,6 +600,10 @@ span {
 
 .top-16 {
   top: 4rem;
+}
+
+.top-30 {
+  top: 30px;
 }
 
 .top-52 {
@@ -1049,6 +1057,11 @@ span {
   padding-right: 1rem;
 }
 
+.px-70 {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1109,14 +1122,14 @@ span {
   padding-bottom: 1.5rem;
 }
 
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-70 {
-  padding-top: 70px;
-  padding-bottom: 70px;
 }
 
 .pb-12 {
@@ -1137,6 +1150,10 @@ span {
 
 .pb-2\.5 {
   padding-bottom: 0.625rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .pb-9 {
@@ -1183,6 +1200,10 @@ span {
   padding-top: 0.75rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
 .pt-8 {
   padding-top: 2rem;
 }
@@ -1218,6 +1239,10 @@ span {
 
 .text-34 {
   font-size: 34px;
+}
+
+.text-44 {
+  font-size: 44px;
 }
 
 .text-4xl {
@@ -1299,6 +1324,10 @@ span {
   line-height: 14px;
 }
 
+.leading-17 {
+  line-height: 17px;
+}
+
 .leading-18 {
   line-height: 18px;
 }
@@ -1337,6 +1366,10 @@ span {
 
 .leading-50 {
   line-height: 50px;
+}
+
+.leading-57 {
+  line-height: 57px;
 }
 
 .leading-6 {
@@ -1409,4 +1442,14 @@ span {
   max-width: 1440px;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.placeholder\:text-br-grey-777::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(119 119 119 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-br-grey-777::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(119 119 119 / var(--tw-text-opacity));
 }
