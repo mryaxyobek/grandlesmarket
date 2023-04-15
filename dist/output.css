@@ -842,6 +842,14 @@ span {
   max-width: 539px;
 }
 
+.max-w-240 {
+  max-width: 240px;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
 .list-disc {
   list-style-type: disc;
 }
@@ -1170,6 +1178,16 @@ span {
   padding-bottom: 2rem;
 }
 
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -1244,6 +1262,14 @@ span {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pt-9 {
+  padding-top: 2.25rem;
 }
 
 .text-center {
