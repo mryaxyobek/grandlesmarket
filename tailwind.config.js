@@ -80,7 +80,11 @@ module.exports = {
       },
       height:{
         '493':"493px",
+        '100':"100px",
         '30':"30px",
+      },
+      width:{
+        '100':"100px"
       },
       lineHeight:{
         '18':"18px",
