@@ -63,6 +63,7 @@ module.exports = {
         '90':"90px"
       },
       margin:{
+        '100':"100px",
         '70':"70px",
       },
       boxShadow:{

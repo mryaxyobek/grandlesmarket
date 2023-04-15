@@ -674,6 +674,10 @@ span {
   margin-left: 0.375rem;
 }
 
+.ml-24 {
+  margin-left: 6rem;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -716,6 +720,10 @@ span {
 
 .mt-2\.5 {
   margin-top: 0.625rem;
+}
+
+.ml-100 {
+  margin-left: 100px;
 }
 
 .inline-block {
@@ -826,6 +834,10 @@ span {
   max-width: 215px;
 }
 
+.max-w-240 {
+  max-width: 240px;
+}
+
 .max-w-354 {
   max-width: 354px;
 }
@@ -842,44 +854,12 @@ span {
   max-width: 539px;
 }
 
-.max-w-240 {
-  max-width: 240px;
-}
-
 .grow {
   flex-grow: 1;
 }
 
 .list-disc {
   list-style-type: disc;
-}
-
-.list-decimal {
-  list-style-type: decimal;
-}
-
-.list-image-\[url\(checkmark\.png\)\] {
-  list-style-image: url(checkmark.png);
-}
-
-.list-image-\[url\(\.\/\)\] {
-  list-style-image: url(./);
-}
-
-.list-image-\[url\(\.\/images\/\)\] {
-  list-style-image: url(./images/);
-}
-
-.list-image-\[url\(\.\/images\/yellow-circke\=\)\] {
-  list-style-image: url(./images/yellow-circke=);
-}
-
-.list-image-\[url\(\.\/images\/yellow-circle\.\)\] {
-  list-style-image: url(./images/yellow-circle.);
-}
-
-.list-image-\[url\(\.\/images\/yellow-circle\.svg\)\] {
-  list-style-image: url(./images/yellow-circle.svg);
 }
 
 .grid-cols-2 {
@@ -970,6 +950,12 @@ span {
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+
 .overflow-x-auto {
   overflow-x: auto;
 }
@@ -1002,6 +988,14 @@ span {
 
 .border {
   border-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
+}
+
+.border-t-2 {
+  border-top-width: 2px;
 }
 
 .border-black-222 {
@@ -1076,6 +1070,11 @@ span {
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .px-14 {
@@ -1178,14 +1177,13 @@ span {
   padding-bottom: 2rem;
 }
 
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
 .py-9 {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pb-12 {
@@ -1262,14 +1260,6 @@ span {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pt-9 {
-  padding-top: 2.25rem;
 }
 
 .text-center {
@@ -1366,6 +1356,10 @@ span {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.normal-case {
+  text-transform: none;
 }
 
 .not-italic {
