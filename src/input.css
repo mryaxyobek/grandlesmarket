@@ -15,6 +15,6 @@
 }
 @layer utilities{
     .site-container{
-        @apply max-w-1440 w-full mx-auto px-5;
+        @apply max-w-1480 w-full mx-auto px-5;
     }
 }
