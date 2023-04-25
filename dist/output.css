@@ -807,10 +807,6 @@ span {
   height: 30px;
 }
 
-.h-345 {
-  height: 345px;
-}
-
 .h-4 {
   height: 1rem;
 }
@@ -893,10 +889,6 @@ span {
 
 .w-full {
   width: 100%;
-}
-
-.w-345 {
-  width: 345px;
 }
 
 .max-w-1018 {
