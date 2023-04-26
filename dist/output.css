@@ -763,6 +763,14 @@ span {
   margin-top: auto;
 }
 
+.mb-72 {
+  margin-bottom: 18rem;
+}
+
+.mb-70 {
+  margin-bottom: 70px;
+}
+
 .block {
   display: block;
 }
