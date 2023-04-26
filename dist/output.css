@@ -651,6 +651,10 @@ span {
   margin-bottom: 2.5rem;
 }
 
+.mb-11 {
+  margin-bottom: 2.75rem;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -677,6 +681,10 @@ span {
 
 .mb-7 {
   margin-bottom: 1.75rem;
+}
+
+.mb-70 {
+  margin-bottom: 70px;
 }
 
 .mb-8 {
@@ -761,14 +769,6 @@ span {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.mb-72 {
-  margin-bottom: 18rem;
-}
-
-.mb-70 {
-  margin-bottom: 70px;
 }
 
 .block {
@@ -1051,6 +1051,10 @@ span {
   gap: 0.625rem;
 }
 
+.gap-20 {
+  gap: 5rem;
+}
+
 .gap-24 {
   gap: 6rem;
 }
@@ -1065,10 +1069,6 @@ span {
 
 .gap-9 {
   gap: 2.25rem;
-}
-
-.gap-20 {
-  gap: 5rem;
 }
 
 .gap-y-8 {
@@ -1690,6 +1690,10 @@ span {
 
 .leading-50 {
   line-height: 50px;
+}
+
+.leading-54 {
+  line-height: 54px;
 }
 
 .leading-57 {
