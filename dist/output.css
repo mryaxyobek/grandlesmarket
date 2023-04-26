@@ -871,6 +871,10 @@ span {
   width: 250px;
 }
 
+.w-255 {
+  width: 255px;
+}
+
 .w-315 {
   width: 315px;
 }
@@ -901,10 +905,6 @@ span {
 
 .w-full {
   width: 100%;
-}
-
-.w-255 {
-  width: 255px;
 }
 
 .max-w-1018 {
@@ -1057,6 +1057,10 @@ span {
 
 .gap-9 {
   gap: 2.25rem;
+}
+
+.gap-20 {
+  gap: 5rem;
 }
 
 .gap-y-8 {
