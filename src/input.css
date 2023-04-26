@@ -18,3 +18,34 @@
         @apply max-w-1480 w-full mx-auto px-5;
     }
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.catalog-list {
+    list-style: none;
+}
+.catalog-list li::before {
+    content: "\2022";
+    color: #FF9B04;
+    font-weight: bold;
+    display: inline-block; 
+    width: 6px;
+    height: 6px;
+    margin-right: 10px;
+}
+.cash-radio:checked ~ .cash-radio-label{
+    border-color: #FF9B04;
+}
+.phone-radio:checked ~ .phone-radio-label{
+    border-color: #FF9B04;
+}
+.document-radio:checked ~ .document-radio-label{
+    border-color: #FF9B04;
+}
