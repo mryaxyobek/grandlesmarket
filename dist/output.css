@@ -1512,6 +1512,14 @@ span {
   padding-top: 2rem;
 }
 
+.pt-9 {
+  padding-top: 2.25rem;
+}
+
+.pb-11 {
+  padding-bottom: 2.75rem;
+}
+
 .text-center {
   text-align: center;
 }
