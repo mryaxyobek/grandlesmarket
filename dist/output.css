@@ -1424,6 +1424,10 @@ span {
   padding-bottom: 2.5rem;
 }
 
+.pb-11 {
+  padding-bottom: 2.75rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -1454,6 +1458,10 @@ span {
 
 .pb-7 {
   padding-bottom: 1.75rem;
+}
+
+.pb-76 {
+  padding-bottom: 76px;
 }
 
 .pb-8 {
@@ -1512,12 +1520,12 @@ span {
   padding-top: 2rem;
 }
 
-.pt-9 {
-  padding-top: 2.25rem;
+.pt-84 {
+  padding-top: 84px;
 }
 
-.pb-11 {
-  padding-bottom: 2.75rem;
+.pt-9 {
+  padding-top: 2.25rem;
 }
 
 .text-center {
@@ -1550,6 +1558,10 @@ span {
 
 .text-22 {
   font-size: 22px;
+}
+
+.text-28 {
+  font-size: 28px;
 }
 
 .text-2xl {
@@ -1718,6 +1730,10 @@ span {
 
 .leading-7 {
   line-height: 1.75rem;
+}
+
+.leading-9 {
+  line-height: 2.25rem;
 }
 
 .text-br-black-222 {
