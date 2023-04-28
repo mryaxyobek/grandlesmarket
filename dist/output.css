@@ -724,6 +724,10 @@ span {
   margin-left: 0.625rem;
 }
 
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -888,6 +892,10 @@ span {
   width: 0.625rem;
 }
 
+.w-230 {
+  width: 230px;
+}
+
 .w-24 {
   width: 6rem;
 }
@@ -900,12 +908,20 @@ span {
   width: 255px;
 }
 
+.w-265 {
+  width: 265px;
+}
+
 .w-315 {
   width: 315px;
 }
 
 .w-345 {
   width: 345px;
+}
+
+.w-385 {
+  width: 385px;
 }
 
 .w-4 {
@@ -934,10 +950,6 @@ span {
 
 .w-full {
   width: 100%;
-}
-
-.w-265 {
-  width: 265px;
 }
 
 .max-w-1018 {
@@ -1180,6 +1192,12 @@ span {
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
+.space-y-70 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(70px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(70px * var(--tw-space-y-reverse));
+}
+
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
@@ -1395,6 +1413,11 @@ span {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
 }
 
 .px-90 {
