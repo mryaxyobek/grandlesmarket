@@ -944,6 +944,10 @@ span {
   max-width: 1203px;
 }
 
+.max-w-1310 {
+  max-width: 1310px;
+}
+
 .max-w-1382 {
   max-width: 1382px;
 }
@@ -982,10 +986,6 @@ span {
 
 .max-w-720 {
   max-width: 720px;
-}
-
-.max-w-1310 {
-  max-width: 1310px;
 }
 
 .grow {
@@ -1100,12 +1100,12 @@ span {
   gap: 1.5rem;
 }
 
-.gap-9 {
-  gap: 2.25rem;
-}
-
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-9 {
+  gap: 2.25rem;
 }
 
 .gap-y-8 {
@@ -1469,11 +1469,6 @@ span {
   padding-bottom: 2.25rem;
 }
 
-.px-9 {
-  padding-left: 2.25rem;
-  padding-right: 2.25rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1584,10 +1579,6 @@ span {
 
 .pt-9 {
   padding-top: 2.25rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
 }
 
 .text-center {
