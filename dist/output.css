@@ -651,6 +651,10 @@ span {
   margin-bottom: 2.5rem;
 }
 
+.mb-100 {
+  margin-bottom: 100px;
+}
+
 .mb-11 {
   margin-bottom: 2.75rem;
 }
@@ -769,10 +773,6 @@ span {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.mb-100 {
-  margin-bottom: 100px;
 }
 
 .block {
@@ -979,6 +979,10 @@ span {
   max-width: 720px;
 }
 
+.max-w-1310 {
+  max-width: 1310px;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -1121,6 +1125,12 @@ span {
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
 .space-y-12 > :not([hidden]) ~ :not([hidden]) {
@@ -1526,6 +1536,10 @@ span {
   padding-right: 1.5rem;
 }
 
+.pt-11 {
+  padding-top: 2.75rem;
+}
+
 .pt-12 {
   padding-top: 3rem;
 }
@@ -1556,10 +1570,6 @@ span {
 
 .pt-9 {
   padding-top: 2.25rem;
-}
-
-.pt-11 {
-  padding-top: 2.75rem;
 }
 
 .text-center {
@@ -1710,6 +1720,10 @@ span {
   line-height: 21px;
 }
 
+.leading-22 {
+  line-height: 22px;
+}
+
 .leading-23 {
   line-height: 23px;
 }
@@ -1823,6 +1837,12 @@ span {
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-15px {
+  --tw-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);
+  --tw-shadow-colored: 0px 0px 15px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
