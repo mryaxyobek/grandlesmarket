@@ -262,6 +262,32 @@
         <section class="site-container py-9 leading-6 font-normal">
             Мы работаем без выходных и всегда готовы помочь нашим клиентам с оформлением заказа. Закажите обратный звонок в удобное время или задавайте вопросы в режиме онлайн через специальную форму на сайте компании. Связаться с менеджерами самостоятельно можно по телефонам: <a href="https://tel:+7(915)202-72-57" class="font-semibold">+7 (915) 202-72-57</a> / <a href="https://tel: +7(495)970-45-62" class="font-semibold"> +7 (495) 970-45-62</a>
         </section>
+
+        <!-- Payment form section  -->
+
+        <section class="site-container py-9">
+            <form action="https://echo.htmlacademy.ru" class="flex flex-col justify-center rounded-10 bg-grey-F5F5F5 px-12 py-14">
+                <!-- title -->
+                <h2 class="mb-8 text-center">Форма оплаты</h2>
+                <!-- inputs  -->
+                <div class="grid grid-cols-2 gap-8 mb-8">
+                    <!-- name input  -->
+                    <input required name="name" placeholder="Ваше имя" type="text" class="w-full p-5 leading-4 placeholder:text-br-grey-777 font-normal rounded-10 border-grey-E0E0E0 border">
+                    <!-- tel input  -->
+                    <input required name="tel" placeholder="В+7 (_ _ _) _ _ _ - _ _ - _ _" type="tel" class="w-full p-5 leading-4 placeholder:text-br-grey-777 font-normal rounded-10 border-grey-E0E0E0 border">
+                    <!-- email input  -->
+                    <input required name="email" placeholder="Электронная почта" type="email" class="w-full p-5 leading-4 placeholder:text-br-grey-777 font-normal rounded-10 border-grey-E0E0E0 border">
+                    <!-- text input  -->
+                    <input required name="payment amount" placeholder="Сумма платежа" type="text" class="w-full p-5 leading-4 placeholder:text-br-grey-777 font-normal rounded-10 border-grey-E0E0E0 border">
+                </div>
+                <!-- textarea -->
+                <textarea required name="payment opinion" placeholder="Комментарий к платежу" cols="30" rows="10" class="w-full resize-none py-6 px-5 rounded-10 border-grey-E0E0E0 border mb-8"></textarea>
+                <span class="mb-7 text-br-grey-777 text-13 leading-13 text-center">Нажимая кнопку “Отправить заявку”, Вы соглашаетесь с правилами обработки персональных данных</span>
+                <!-- btn  -->
+                <button class="rounded-lg text-white max-w-240 w-full bg-yellow-FF9B04 py-6 text-13 leading-13 mx-auto">Отправить</button>
+            </form>
+        </section>
+
     </main>
 
     <!-- cta -->

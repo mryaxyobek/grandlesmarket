@@ -631,6 +631,11 @@ span {
   margin-right: 2rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -1099,6 +1104,10 @@ span {
   gap: 2.25rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .gap-y-8 {
   row-gap: 2rem;
 }
@@ -1460,6 +1469,11 @@ span {
   padding-bottom: 2.25rem;
 }
 
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1570,6 +1584,10 @@ span {
 
 .pt-9 {
   padding-top: 2.25rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-center {
