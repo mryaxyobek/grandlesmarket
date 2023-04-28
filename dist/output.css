@@ -927,6 +927,10 @@ span {
   max-width: 1203px;
 }
 
+.max-w-1382 {
+  max-width: 1382px;
+}
+
 .max-w-215 {
   max-width: 215px;
 }
@@ -1674,6 +1678,10 @@ span {
 
 .leading-19 {
   line-height: 19px;
+}
+
+.leading-21 {
+  line-height: 21px;
 }
 
 .leading-26 {
