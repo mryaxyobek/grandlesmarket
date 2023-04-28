@@ -1892,13 +1892,13 @@ span {
 }
 
 .catalog-list li::before {
-  content: "\2022";
-  color: #FF9B04;
-  font-weight: bold;
-  display: inline-block;
+  content: "";
   width: 6px;
   height: 6px;
+  color: #FF9B04;
+  display: inline-block;
   margin-right: 10px;
+  border-radius: 100%;
 }
 
 .cash-radio:checked ~ .cash-radio-label{
@@ -1939,6 +1939,56 @@ span {
 .placeholder\:text-br-grey-999::placeholder {
   --tw-text-opacity: 1;
   color: rgb(153 153 153 / var(--tw-text-opacity));
+}
+
+.before\:h-1::before {
+  content: var(--tw-content);
+  height: 0.25rem;
+}
+
+.before\:h-1\.5::before {
+  content: var(--tw-content);
+  height: 0.375rem;
+}
+
+.before\:w-1::before {
+  content: var(--tw-content);
+  width: 0.25rem;
+}
+
+.before\:w-1\.5::before {
+  content: var(--tw-content);
+  width: 0.375rem;
+}
+
+.before\:content-\[\]::before {
+  --tw-content: ;
+  content: var(--tw-content);
+}
+
+.before\:content-\[\"\"\]::before {
+  --tw-content: "";
+  content: var(--tw-content);
+}
+
+.before\:content-\[\"d\"\]::before {
+  --tw-content: "d";
+  content: var(--tw-content);
+}
+
+.before\:content-\[\"gvvgvg\"\]::before {
+  --tw-content: "gvvgvg";
+  content: var(--tw-content);
+}
+
+.before\:content-\[gb\]::before {
+  --tw-content: gb;
+  content: var(--tw-content);
+}
+
+.before\:content-\[\"vgvgvvg\"\]::before {
+  --tw-content: "vgvgvvg";
+  content: var(--tw-content);
 }
 
 .after\:absolute::after {

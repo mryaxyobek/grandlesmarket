@@ -32,13 +32,13 @@
     list-style: none;
 }
 .catalog-list li::before {
-    content: "\2022";
-    color: #FF9B04;
-    font-weight: bold;
-    display: inline-block; 
+    content: "";
     width: 6px;
     height: 6px;
+    color: #FF9B04;
+    display: inline-block; 
     margin-right: 10px;
+    border-radius: 100%;
 }
 .cash-radio:checked ~ .cash-radio-label{
     border-color: #FF9B04;
