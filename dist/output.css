@@ -860,6 +860,10 @@ span {
   height: 493px;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
 .h-60 {
   height: 60px;
 }
@@ -926,6 +930,10 @@ span {
 
 .w-265 {
   width: 265px;
+}
+
+.w-300 {
+  width: 300px;
 }
 
 .w-315 {
@@ -1484,6 +1492,11 @@ span {
   padding-bottom: 2.5rem;
 }
 
+.py-11 {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -1507,6 +1520,11 @@ span {
 .py-2\.5 {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .py-3 {
