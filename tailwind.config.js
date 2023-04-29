@@ -74,6 +74,7 @@ module.exports = {
       },
       margin:{
         '100':"100px",
+        '90':"90px",
         '70':"70px",
       },
       boxShadow:{
@@ -109,6 +110,7 @@ module.exports = {
         '70':"70px",
         '60':"60px",
         '30':"30px",
+        '15':"60px",
       },
       width:{
         '385':"385px",
@@ -120,6 +122,7 @@ module.exports = {
         '230':"230px",
         '100':"100px",
         '70':"70px",
+        '15':"60px",
       },
       lineHeight:{
         '66':"66px",
