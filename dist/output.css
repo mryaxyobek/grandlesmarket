@@ -784,6 +784,18 @@ span {
   margin-top: auto;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -1092,6 +1104,10 @@ span {
   gap: 2.75rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .gap-16 {
   gap: 4rem;
 }
@@ -1198,6 +1214,12 @@ span {
   margin-bottom: calc(70px * var(--tw-space-y-reverse));
 }
 
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
@@ -1297,6 +1319,15 @@ span {
   border-color: rgb(255 155 4 / var(--tw-border-opacity));
 }
 
+.border-r-yellow-FF9B04 {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(255 155 4 / var(--tw-border-opacity));
+}
+
+.border-opacity-25 {
+  --tw-border-opacity: 0.25;
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -1339,6 +1370,14 @@ span {
 .bg-yellow-FF9B04 {
   --tw-bg-opacity: 1;
   background-color: rgb(255 155 4 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-10 {
+  --tw-bg-opacity: 0.1;
+}
+
+.bg-opacity-20 {
+  --tw-bg-opacity: 0.2;
 }
 
 .p-1 {
