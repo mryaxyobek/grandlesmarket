@@ -538,6 +538,10 @@ span {
   --tw-backdrop-sepia:  ;
 }
 
+.static {
+  position: static;
+}
+
 .absolute {
   position: absolute;
 }
@@ -2092,4 +2096,24 @@ span {
 .\[\&\>\*\:nth-child\(even\)\]\:bg-grey-E0E0E0>*:nth-child(even) {
   --tw-bg-opacity: 1;
   background-color: rgb(224 224 224 / var(--tw-bg-opacity));
+}
+
+.\[\&\>\*\:nth-child\(even\)\]\:bg-gray-100>*:nth-child(even) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.\[\&\>\*\:nth-child\(even\)\]\:bg-grey-F5F5F5>*:nth-child(even) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
+.\[\&\>\*\:nth-child\(odd\)\]\:bg-gray-300>*:nth-child(odd) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.\[\&\>\*\:nth-child\(odd\)\]\:bg-white>*:nth-child(odd) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
