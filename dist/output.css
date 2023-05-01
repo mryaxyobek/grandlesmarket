@@ -546,6 +546,10 @@ span {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .-left-16 {
   left: -4rem;
 }
@@ -728,10 +732,6 @@ span {
   margin-left: 0.625rem;
 }
 
-.ml-6 {
-  margin-left: 1.5rem;
-}
-
 .ml-90 {
   margin-left: 90px;
 }
@@ -770,6 +770,10 @@ span {
 
 .mr-5 {
   margin-right: 1.25rem;
+}
+
+.mr-6 {
+  margin-right: 1.5rem;
 }
 
 .mr-7 {
@@ -892,6 +896,10 @@ span {
   height: 100%;
 }
 
+.w-1\/5 {
+  width: 20%;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -912,8 +920,8 @@ span {
   width: 0.625rem;
 }
 
-.w-230 {
-  width: 230px;
+.w-2\/5 {
+  width: 40%;
 }
 
 .w-24 {
@@ -944,10 +952,6 @@ span {
   width: 345px;
 }
 
-.w-385 {
-  width: 385px;
-}
-
 .w-4 {
   width: 1rem;
 }
@@ -970,6 +974,10 @@ span {
 
 .w-9 {
   width: 2.25rem;
+}
+
+.w-\[340px\] {
+  width: 340px;
 }
 
 .w-full {
@@ -1230,12 +1238,6 @@ span {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
-
-.space-y-70 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(70px * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(70px * var(--tw-space-y-reverse));
 }
 
 .divide-y > :not([hidden]) ~ :not([hidden]) {
@@ -2085,4 +2087,9 @@ span {
 .after\:content-\[\'\43E\442 2500\20BD\'\]::after {
   --tw-content: 'от2500₽';
   content: var(--tw-content);
+}
+
+.\[\&\>\*\:nth-child\(even\)\]\:bg-grey-E0E0E0>*:nth-child(even) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 224 224 / var(--tw-bg-opacity));
 }

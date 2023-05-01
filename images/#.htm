@@ -168,17 +168,10 @@
             <h1 class="mb-8 font-bold text-44 leading-57">Цены на пиломатериалы от производителя</h1>
             <!-- btn and texts  -->
             <div class="flex items-center justify-between mb-12">
-                <p class="max-w-1075 text-base font-normal leading-6">Ниже предоставлены лучшие цены на пиломатериалы в
-                    Москве и Московской области. Продаем товар минимум по 1м3, а так же по штучно. Стоимость
-                    пиломатериалов указана за куб. Вы можете связаться с нами по номерам <a
-                        href="https://tel:+7(915)202-72-57" class="font-semibold">+7 (915) 202-72-57</a> / <a
-                        href="https://tel: +7(495)970-45-62" class="font-semibold"> +7 (495) 970-45-62</a>для более
-                    детальной консультации.</p>
+                <p class="max-w-1075 text-base font-normal leading-6">Ниже предоставлены лучшие цены на пиломатериалы в Москве и Московской области. Продаем товар минимум по 1м3, а так же по штучно. Стоимость пиломатериалов указана за куб. Вы можете связаться с нами по номерам <a href="https://tel:+7(915)202-72-57" class="font-semibold">+7 (915) 202-72-57</a> / <a href="https://tel: +7(495)970-45-62" class="font-semibold"> +7 (495) 970-45-62</a>для более детальной консультации.</p>
                 <!-- btn  -->
-                <a href="#" download="creator xabibullayev yaxyobek"
-                    class="flex items-center rounded-lg bg-yellow-FF9B04 text-white text13 leading-13 font-semibold py-6 px-9">
-                    <img src="./images/download-icon.svg" alt="download-icon" width="16" height="16"
-                        class="w-4 h-4 mr-2.5">
+                <a href="#" download="#" class="flex items-center rounded-lg bg-yellow-FF9B04 text-white text13 leading-13 font-semibold py-6 px-9">
+                    <img src="./images/download-icon.svg" alt="download-icon" width="16" height="16" class="w-4 h-4 mr-2.5">
                     Скачать прайс-лист
                 </a>
             </div>
@@ -212,20 +205,22 @@
                 </ul>
 
                 <!-- tables  -->
-                <div class="grow">
+                <div class="">
                     <!-- 1 -->
                     <div>
-                        <h3 class="mb-5">Доска обрезная ГОСТ</h3>
-                        <table class="w-full border border-grey-E0E0E0 \[&>*:nth-child(even)]:bg-grey-E0E0E0">
-                            <tr class="py-5 border-grey-E0E0E0">
-                                <th class="w-2/5 p-5 text-start border-grey-E0E0E0 border">Наименование</th>
-                                <th class="w-1/5 p-5 border-grey-E0E0E0 border">Сорт</th>
-                                <th class="w-1/5 p-5 border-grey-E0E0E0 border">В кубе штук</th>
-                                <th class="w-1/5 p-5 border-grey-E0E0E0 border">Цена за м3</th>
-                            </tr>
+                        <h3 class="mb-5">Доска обрезная ГОСТ</h2>
+                        <table class="w-full border border-grey-E0E0E0">
+                            <thead class="text-lg leading-18 font-semibold text-center">
+                                <tr class="py-5 border-grey-E0E0E0">
+                                    <th class="w-2/5 text-start border-grey-E0E0E0 border">Наименование</th>
+                                    <th class="w-1/5 border-grey-E0E0E0 border">Сорт</th>
+                                    <th class="w-1/5 border-grey-E0E0E0 border">В кубе штук</th>
+                                    <th class="w-1/5 border-grey-E0E0E0 border">Цена за м3</th>
+                                </tr>
+                            </thead>
                         </table>
                     </div>
-                </div>
+                </div>  
             </div>
         </div>
 
@@ -395,6 +390,44 @@
         </div>
     </footer>
 
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 </body>
 
 </html>
