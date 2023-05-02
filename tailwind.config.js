@@ -78,6 +78,7 @@ module.exports = {
         '70':"70px",
       },
       boxShadow:{
+        '25px':"0px 0px 25px rgba(0, 0, 0, 0.05)",
         '20px':"0px 0px 20px rgba(0, 0, 0, 0.05)",
         '15px':"0px 0px 15px rgba(0, 0, 0, 0.08)",
       },
@@ -151,6 +152,7 @@ module.exports = {
       },
       gap:{
         '100':"100px",
+        '70':"70px",
         '60':"60px",
       },
       space:{

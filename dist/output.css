@@ -538,10 +538,6 @@ span {
   --tw-backdrop-sepia:  ;
 }
 
-.static {
-  position: static;
-}
-
 .absolute {
   position: absolute;
 }
@@ -692,6 +688,10 @@ span {
   margin-bottom: 5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -828,6 +828,10 @@ span {
   height: 100px;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-15 {
   height: 60px;
 }
@@ -910,6 +914,10 @@ span {
 
 .w-100 {
   width: 100px;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-15 {
@@ -1166,6 +1174,15 @@ span {
 
 .gap-9 {
   gap: 2.25rem;
+}
+
+.gap-x-5 {
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+}
+
+.gap-y-70 {
+  row-gap: 70px;
 }
 
 .gap-y-8 {
@@ -1612,6 +1629,10 @@ span {
   padding-bottom: 1.75rem;
 }
 
+.pb-70 {
+  padding-bottom: 70px;
+}
+
 .pb-76 {
   padding-bottom: 76px;
 }
@@ -1642,6 +1663,10 @@ span {
 
 .pr-0 {
   padding-right: 0px;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
 }
 
 .pr-5 {
@@ -1976,6 +2001,12 @@ span {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-25px {
+  --tw-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+  --tw-shadow-colored: 0px 0px 25px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .backdrop-blur-sm {
   --tw-backdrop-blur: blur(4px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
@@ -2093,24 +2124,9 @@ span {
   content: var(--tw-content);
 }
 
-.\[\&\>\*\:nth-child\(even\)\]\:bg-grey-E0E0E0>*:nth-child(even) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(224 224 224 / var(--tw-bg-opacity));
-}
-
-.\[\&\>\*\:nth-child\(even\)\]\:bg-gray-100>*:nth-child(even) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
 .\[\&\>\*\:nth-child\(even\)\]\:bg-grey-F5F5F5>*:nth-child(even) {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
-}
-
-.\[\&\>\*\:nth-child\(odd\)\]\:bg-gray-300>*:nth-child(odd) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
 .\[\&\>\*\:nth-child\(odd\)\]\:bg-white>*:nth-child(odd) {
