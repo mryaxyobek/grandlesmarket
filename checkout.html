@@ -221,25 +221,29 @@
                                 <label for="pickup" class="text-sm leading-4 font-semibold">Самовывоз</label>
                             </li>
                             <li class="flex items-center">
-                                <input type="radio" name="type of car" value="pickup" id="pickup" class="mr-2.5" required>
+                                <input type="radio" name="type of car" value="pickup" id="pickup" class="mr-2.5"
+                                    required>
                                 <label for="pickup"
                                     class="relative after:-bottom-4 after:left-0 after:absolute after:content-['от2500₽'] after:text-xs after:text-br-grey-777 after:leading-14 text-sm leading-4 font-semibold">Самовывоз
                                     <span class="font-normal leading-4">(до 1,5 т, до 3 м3)</span></label>
                             </li>
                             <li class="flex items-center">
-                                <input type="radio" name="type of car" value="pickup" id="pickup" class="mr-2.5" required>
+                                <input type="radio" name="type of car" value="pickup" id="pickup" class="mr-2.5"
+                                    required>
                                 <label for="pickup"
                                     class="relative after:-bottom-4 after:left-0 after:absolute after:content-['от2500₽'] after:text-xs after:text-br-grey-777 after:leading-14 text-sm leading-4 font-semibold">Hyndai
                                     78<span class="font-normal leading-4">(до 5 т, до 9 м3)</span></label>
                             </li>
                             <li class="flex items-center">(до 1,5 т, до 3 м3)
-                                <input type="radio" name="type of car" value="pickup" id="pickup" class="mr-2.5" required>
+                                <input type="radio" name="type of car" value="pickup" id="pickup" class="mr-2.5"
+                                    required>
                                 <label for="pickup"
                                     class="relative after:-bottom-4 after:left-0 after:absolute after:content-['от2500₽'] after:text-xs after:text-br-grey-777 after:leading-14 text-sm leading-4 font-semibold">MAZ<span
                                         class="font-normal leading-4">(до 7 т, до 16 м3)</span></label>
                             </li>
                             <li class="flex items-center">
-                                <input type="radio" name="type of car" value="pickup" id="pickup" class="mr-2.5" required>
+                                <input type="radio" name="type of car" value="pickup" id="pickup" class="mr-2.5"
+                                    required>
                                 <label for="pickup"
                                     class="relative after:-bottom-4 after:left-0 after:absolute after:content-['от2500₽'] after:text-xs after:text-br-grey-777 after:leading-14 text-sm leading-4 font-semibold">KAMAZ<span
                                         class="font-normal leading-4">(до 15 т, до 23 м3)</span></label>
@@ -247,32 +251,47 @@
                         </ul>
                         <!-- Shipping Address -->
                         <div class="flex flex-col mb-12">
-                            <label for="shipping-address" class="text-sm leading-17 font-semibold mb-1.5">Адрес доставки</label>
-                            <input id="shipping-address" placeholder="Город, улица, номер квартиры или номер склада" type="text" required name="shipping address" class="w-full placeholder:text-br-grey-999 text-sm leading-4 font font-normal p-5 bg-grey-F8F8F8 rounded-md border border-grey-E0E0E0">
+                            <label for="shipping-address" class="text-sm leading-17 font-semibold mb-1.5">Адрес
+                                доставки</label>
+                            <input id="shipping-address" placeholder="Город, улица, номер квартиры или номер склада"
+                                type="text" required name="shipping address"
+                                class="w-full placeholder:text-br-grey-999 text-sm leading-4 font font-normal p-5 bg-grey-F8F8F8 rounded-md border border-grey-E0E0E0">
                         </div>
                     </div>
                     <!-- payment Information -->
                     <div class="mb-12">
                         <h3 class="text-2xl leading-31 mb-7">Информация об оплате</h3>
                         <div class="flex items-center space-x-6">
-                            <div class="">
-                                <input type="radio" required value="cash" name="payment information" id="cash" class="cash-radio visually-hidden">
-                                <label class="flex cursor-pointer cash-radio-label items-center py-2.5 px-4 border border-grey-E0E0E0 rounded-md w-250" for="cash">
-                                    <img src="./images/cash-icon.svg" alt="cash-icon" width="40" height="40" class="w-10 h-10 mr-4">
+                            <div>
+                                <input type="radio" required value="cash" name="payment information" id="cash"
+                                    class="cash-radio visually-hidden">
+                                <label
+                                    class="flex cursor-pointer cash-radio-label items-center py-2.5 px-4 border border-grey-E0E0E0 rounded-md w-250"
+                                    for="cash">
+                                    <img src="./images/cash-icon.svg" alt="cash-icon" width="40" height="40"
+                                        class="w-10 h-10 mr-4">
                                     Наличные
                                 </label>
                             </div>
-                            <div class="">
-                                <input type="radio" required value="online payment" name="payment information" id="phone" class="phone-radio visually-hidden">
-                                <label class="flex cursor-pointer phone-radio-label items-center py-2.5 px-4 border border-grey-E0E0E0 rounded-md w-250" for="phone">
-                                    <img src="./images/phone-and-card-icon.svg" alt="phone-and-card-icon" width="36" height="40" class="w-9 h-10 mr-4">
+                            <div>
+                                <input type="radio" required value="online payment" name="payment information"
+                                    id="phone" class="phone-radio visually-hidden">
+                                <label
+                                    class="flex cursor-pointer phone-radio-label items-center py-2.5 px-4 border border-grey-E0E0E0 rounded-md w-250"
+                                    for="phone">
+                                    <img src="./images/phone-and-card-icon.svg" alt="phone-and-card-icon" width="36"
+                                        height="40" class="w-9 h-10 mr-4">
                                     Онлайн-оплата
                                 </label>
                             </div>
-                            <div class="">
-                                <input type="radio" required value="payment on account" name="payment information" id="document" class="document-radio visually-hidden">
-                                <label class="flex cursor-pointer document-radio-label items-center py-2.5 px-4 border border-grey-E0E0E0 rounded-md w-250" for="document">
-                                    <img src="./images/orange-document-icon.svg" alt="document-icon" width="26" height="40" class="h-10 mr-4">
+                            <div>
+                                <input type="radio" required value="payment on account" name="payment information"
+                                    id="document" class="document-radio visually-hidden">
+                                <label
+                                    class="flex cursor-pointer document-radio-label items-center py-2.5 px-4 border border-grey-E0E0E0 rounded-md w-250"
+                                    for="document">
+                                    <img src="./images/orange-document-icon.svg" alt="document-icon" width="26"
+                                        height="40" class="h-10 mr-4">
                                     Оплата по счёту
                                 </label>
                             </div>
@@ -283,10 +302,12 @@
                         <table class="w-full mr-12">
                             <tr class="flex w-full justify-between items-center py-5 border-y-2 border-br-grey-F5F5F5">
                                 <td class="flex items-center justify-start">
-                                    <div class="flex items-center justify-center mr-8 w-100 h-100 rounded-10 bg-grey-F5F5F5">
+                                    <div
+                                        class="flex items-center justify-center mr-8 w-100 h-100 rounded-10 bg-grey-F5F5F5">
                                         <img src="./images/popular-wood-1-img.png" width="68" alt="wood img">
                                     </div>
-                                    <h2 class="text-br-black-222 text-base leading-6 font-medium">Доска строганная сухая <br>
+                                    <h2 class="text-br-black-222 text-base leading-6 font-medium">Доска строганная сухая
+                                        <br>
                                         50х150х6000</h2>
                                 </td>
                                 <td class="leading-5 font-normal">
@@ -298,10 +319,12 @@
                             </tr>
                             <tr class="flex w-full justify-between items-center py-5 border-b-2 border-br-grey-F5F5F5">
                                 <td class="flex items-center justify-start">
-                                    <div class="flex items-center justify-center mr-8 w-100 h-100 rounded-10 bg-grey-F5F5F5">
+                                    <div
+                                        class="flex items-center justify-center mr-8 w-100 h-100 rounded-10 bg-grey-F5F5F5">
                                         <img src="./images/popular-wood-1-img.png" width="68" alt="wood img">
                                     </div>
-                                    <h2 class="text-br-black-222 text-base leading-6 font-medium">Доска строганная сухая <br>
+                                    <h2 class="text-br-black-222 text-base leading-6 font-medium">Доска строганная сухая
+                                        <br>
                                         50х150х6000</h2>
                                 </td>
                                 <td class="leading-5 font-normal">
@@ -315,16 +338,20 @@
                     </div>
                     <div class="mb-8">
                         <h3 class="text-2xl leading-31 mb-7">Комментарий к заказу</h3>
-                        <textarea name="about-the-order"cols="30" rows="10" class="w-full h-150 border border-grey-E0E0E0 mb-8 bg-grey-F8F8F8 rounded-md p-5 resize-none">Xorowo</textarea>
+                        <textarea name="about-the-order" cols="30" rows="10"
+                            class="w-full h-150 border border-grey-E0E0E0 mb-8 bg-grey-F8F8F8 rounded-md p-5 resize-none">Xorowo</textarea>
                         <div class="flex items-center mb-7">
                             <input id="personal-data-processing-policy" type="checkbox" class="mr-1">
                             <label for="personal-data-processing-policy" class="text-sm leading-17 font-normal">
-                                Нажимая на кнопку, я соглашаюсь с 
-                                <a href="#" class="underline underline-offset-4">Политикой обработки персональных данных</a>
+                                Нажимая на кнопку, я соглашаюсь с
+                                <a href="#" class="underline underline-offset-4">Политикой обработки персональных
+                                    данных</a>
                             </label>
                         </div>
                     </div>
-                    <button type="submit" class="flex items-center justify-center bg-yellow-FF9B04 rounded-lg text-white text-sm leading-14 font-semibold w-255 py-6">Оформить заказ</button>
+                    <button type="submit"
+                        class="flex items-center justify-center bg-yellow-FF9B04 rounded-lg text-white text-sm leading-14 font-semibold w-255 py-6">Оформить
+                        заказ</button>
                 </form>
                 <!-- child 2 -->
                 <table class="flex flex-col w-315 p-8 rounded-lg bg-grey-F8F8F8">
